@@ -1,35 +1,10 @@
-import {GameObject, addToStepList, removeFromStepList} from "./gameObject.mjs"
+import {GameObject} from "./gameObject.mjs"
 import {ctx} from "./main.mjs" 
+import TextBox from "./Textbox.mjs"
 
-
-mosawake = false;
-transparency = 0;
-storypart = 0;
-storychar = 0;
-speed = 5;
 DEBUG = false; //for hitboxes
-flavor_text = 
-["get this, he turns himself into a pickle",
-"mostima looks like shes gonna win by any means necessary",
-"mostima is among bitches (and you arent)",
-"mostima is dripping (and you arent)",
-"mostima is sus"
-]
-story = ["...",
-"You've, heh... made a horrible mistake, coming here.",
-"I don't know if you know this, but I tend to win by any means necessary.",
-//"Just give up, I'm straight fuckin drippin.",
-//"If you keep pestering me, I'm gonna have to kick your ass.",
-//"Trying to complete an alternate reality game?",
-//"The reality is that you can't even alternate between bitches.", //i am putting this on my resume. 
-//"...Hey, you wanna know a secret?",
-//"I'm the imposter."
-]
-images = ["https://media.discordapp.net/attachments/623381118552375313/812210903566516224/MOSTIMA_DRIP_3.png?width=319&height=558", 
-"https://media.discordapp.net/attachments/623381118552375313/812210895181709333/MOSTIMA_DRIP.png?width=319&height=558",
-"https://media.discordapp.net/attachments/623381118552375313/812210813984833546/MOSTIMA_DRIP_2.png?width=319&height=558",
-"https://media.discordapp.net/attachments/623381118552375313/812210920306376734/MOSTIMA_DRIP_SANS.png?width=319&height=558",
-"https://cdn.discordapp.com/attachments/623381118552375313/816198709565325344/most.png"]
+
+
 count = 0;
 counting = 0;
 img = 0;
