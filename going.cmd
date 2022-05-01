@@ -1,0 +1,1 @@
+python3 -m http.server --bind 192.168.86.249
