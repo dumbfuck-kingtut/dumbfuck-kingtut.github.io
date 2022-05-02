@@ -20,12 +20,15 @@ function setkeyup(_key){
 }
 
 function gameCreate(){
+    loadImages()
 	document.body.style.backgroundColor = 0x000000
 	loopTimer = setInterval(gameRefresh, 1000/60);
     gameObjectSetup()
 	document.addEventListener('keydown', setkeydown);
 	document.addEventListener('keyup', setkeyup);
-    new GameObject(0,0)
+    var guy = new GameObject(0,0)
+    guy.width = 200
+    guy.height = 200
 }
 
 window.onload = gameCreate;
