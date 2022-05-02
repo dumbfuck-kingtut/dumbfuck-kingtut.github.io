@@ -1,3 +1,5 @@
+import { GameObject } from "./gameObject.mjs";
+
 export class TextBox extends GameObject{
 	targetw = 1000;//must be divisible by 20
 	targeth = 200; //also must be divisible by 20
