@@ -1,3 +1,28 @@
+import {sprites,LoadImageSequence,newImage,loadImages} from "./sprites.mjs";
+
+var gameObjects = []
+var canvas = 0;
+var game = 0;
+
+function gameObjectSetup(){	
+    canvas = document.getElementById("lmao");
+    game = canvas.getContext("2d");
+	canvas.style = "position:absolute; margin-top: 150px;left: 50%; width: 800px; margin-left: -400px";
+}
+
+function gameRefresh(){
+	//event.keyCode
+	game.save(); //these are actually for the screen rotations and stuff
+	game.fillStyle = "black"; //wipe screen.
+	game.fillRect(0,0,800,600);
+	for(var i = 0; i < gameObjects.length; i++){//step
+		gameObjects[i].step();
+	}
+	for(var i = 0; i < gameObjects.length; i++){//draw
+		gameObjects[i].draw();
+	}
+	game.restore();
+}
 
 let addToStepList = function(gameObject){
 	gameObjects.push(gameObject);
@@ -63,4 +88,4 @@ class GameObject{
 	}
 }
 
-export {GameObject}
+export {GameObject,gameRefresh,gameObjectSetup}
