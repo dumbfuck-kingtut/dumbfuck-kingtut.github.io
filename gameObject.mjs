@@ -12,6 +12,7 @@ function gameObjectSetup(){
 }
 
 function gameRefresh(){
+	console.log("refreshing")
 	//event.keyCode
 	game.save(); //these are actually for the screen rotations and stuff
 	game.fillStyle = "white"; //wipe screen.
@@ -58,7 +59,7 @@ class GameObject{
 		this.height = 16;
 		this.hitboxWidth = this.width;
 		this.hitboxHeight = this.height
-		this.sprite = sprites["stand"];//this needs to be replaced or you will always be soul;
+		this.sprite = sprites["stand"];
 		addToStepList(this);
 	}
 
