@@ -11,8 +11,10 @@ if txtprocessed {
 	draw_set_color(c_white);
 	draw_rectangle(x-width/2, y, x+width/2, y+height, true);
 	draw_set_halign(fa_left);
-	draw_text(x+width/20-width/2, y-20, name);
-	var otherfonts = draw_get_font();
+	draw_set_valign(fa_bottom);
+	draw_text(x+width/20-width/2, y-6, name);
+	draw_set_valign(fa_top);
+	//var otherfonts = draw_get_font();
 	draw_set_font(Font1);
 	clr = c_white;
 	
@@ -27,7 +29,7 @@ if txtprocessed {
 	shake = 0;
 	sizepos = 0;
 	pressing = 0;
-	fontsize = font_get_size(draw_get_font())-1;
+	fontsize = font_get_size(draw_get_font())-22;
 	for (i=1; i<=effchars; i++) {
 		
 		while string_char_at(msg[talkpos].text, i) = "|" {
@@ -51,7 +53,7 @@ if txtprocessed {
 	    //clrdur--;
 		
 	}
-	draw_set_font(otherfonts);
+	//draw_set_font(otherfonts);
 	//surface_reset_target();
 }
 
