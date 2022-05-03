@@ -1,6 +1,6 @@
 txtprocessed = false;
 keyboard_check_advanced = keyboard_check;
-msgscript = txt_test;
+msgscript = txt_;
 name = "";
 clr = c_white;
 //draw_set_font(fm_couriernewreallybig);

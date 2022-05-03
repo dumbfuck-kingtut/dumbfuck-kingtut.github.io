@@ -6,11 +6,27 @@ global.textguy[?"rigby"] = s_rigby;
 
 
 enum MORDECAI {
-	
+	ONE,
+	TWO,
+	THREE,
+	FOUR,
+	FIVE,
+	SIX,
+	SEVEN,
+	EIGHT,
+	NINE,
 }
 from s_mordecai
 
 enum RIGBY {
-	
+	ONE,
+	TWO,
+	THREE,
+	FOUR,
+	FIVE,
+	SIX,
+	SEVEN,
+	EIGHT,
+	NINE,
 }
 from s_rigby
