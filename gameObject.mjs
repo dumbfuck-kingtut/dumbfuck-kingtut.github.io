@@ -7,13 +7,15 @@ var game = 0;
 function gameObjectSetup(){	
     canvas = document.getElementById("lmao");
     game = canvas.getContext("2d");
-	canvas.style = "position:absolute; margin-top: 150px;left: 50%; width: 800px; margin-left: -400px";
+	game.imageSmoothingEnabled = false;
+	canvas.style = "position:absolute; margin-top: 150px;left: 50%; width: 800px; margin-left: -400px; image-rendering: pixelated;";
 }
 
 function gameRefresh(){
+	console.log("refreshing")
 	//event.keyCode
 	game.save(); //these are actually for the screen rotations and stuff
-	game.fillStyle = "black"; //wipe screen.
+	game.fillStyle = "white"; //wipe screen.
 	game.fillRect(0,0,800,600);
 	for(var i = 0; i < gameObjects.length; i++){//step
 		gameObjects[i].step();
@@ -57,7 +59,7 @@ class GameObject{
 		this.height = 16;
 		this.hitboxWidth = this.width;
 		this.hitboxHeight = this.height
-		this.sprite = sprites["soul"];//this needs to be replaced or you will always be soul;
+		this.sprite = sprites["stand"];
 		addToStepList(this);
 	}
 
@@ -72,7 +74,7 @@ class GameObject{
 		context.rotate( -angleInRad );
 		context.translate( -positionX, -positionY );
 	}
-	draw = function(){return;};
+	draw = function(){ this.drawSelf();};
 	step = function(){return;};
 	checkCollision = function(a,b){
 		if(a.x+a.hitboxOffsetX>(b.x+b.hitboxOffsetX)-b.hitboxWidth&& //collision but fucked up
