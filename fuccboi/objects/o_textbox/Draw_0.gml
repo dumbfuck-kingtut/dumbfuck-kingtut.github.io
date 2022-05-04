@@ -38,7 +38,7 @@ if txtprocessed {
 		effchars = drawchars+specialchars;
 		//log(wiggle);
 	    draw_text_ext_transformed_colour(
-			x+width/20+xpos*(fontsize)-width/2+cos((count+i*2)/(talkspeed*20))*wigglex+random(shake/2)-shake/4,
+			x+width/20+xpos*(fontsize)-width/2+cos((count+i*2)/(talkspeed*20))*wigglex+random(shake/2)-shake/4+20,
 			y+(fontsize)+lb*(fontsize*2)+sin((count+i*2)/(talkspeed*20))*wiggley+random(shake/2)-shake/4,
 			string_hash_to_newline(string_char_at(msg[talkpos].text, i)),
 			0, 999, sizemult, sizemult, 0, clr, clr, clr, clr, 1

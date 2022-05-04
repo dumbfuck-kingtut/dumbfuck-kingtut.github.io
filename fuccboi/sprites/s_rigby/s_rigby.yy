@@ -83,7 +83,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 500,
-    "yorigin": 680,
+    "yorigin": 675,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_rigby","path":"sprites/s_rigby/s_rigby.yy",},

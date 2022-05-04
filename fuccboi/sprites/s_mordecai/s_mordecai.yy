@@ -87,7 +87,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 500,
-    "yorigin": 750,
+    "yorigin": 775,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"s_mordecai","path":"sprites/s_mordecai/s_mordecai.yy",},
