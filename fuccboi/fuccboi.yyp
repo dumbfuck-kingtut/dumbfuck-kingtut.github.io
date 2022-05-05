@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"bk_coffee","path":"sprites/bk_coffee/bk_coffee.yy",},"order":4,},
+    {"id":{"name":"Font12","path":"fonts/Font12/Font12.yy",},"order":10,},
     {"id":{"name":"DUDE","path":"objects/DUDE/DUDE.yy",},"order":0,},
     {"id":{"name":"txt_12","path":"scripts/txt_12/txt_12.yy",},"order":5,},
     {"id":{"name":"bk_computer","path":"sprites/bk_computer/bk_computer.yy",},"order":7,},
@@ -14,6 +15,7 @@
     {"id":{"name":"c_null","path":"scripts/c_null/c_null.yy",},"order":0,},
     {"id":{"name":"x_charactersetup","path":"scripts/x_charactersetup/x_charactersetup.yy",},"order":4,},
     {"id":{"name":"bk_intro","path":"sprites/bk_intro/bk_intro.yy",},"order":5,},
+    {"id":{"name":"s_textbox","path":"sprites/s_textbox/s_textbox.yy",},"order":8,},
     {"id":{"name":"bk_bedroom","path":"sprites/bk_bedroom/bk_bedroom.yy",},"order":3,},
     {"id":{"name":"c_errorstring","path":"scripts/c_errorstring/c_errorstring.yy",},"order":2,},
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},"order":9,},
