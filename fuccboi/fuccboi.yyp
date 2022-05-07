@@ -12,6 +12,7 @@
     {"id":{"name":"s_rigby","path":"sprites/s_rigby/s_rigby.yy",},"order":2,},
     {"id":{"name":"txt_test","path":"scripts/txt_test/txt_test.yy",},"order":1,},
     {"id":{"name":"c_input","path":"scripts/c_input/c_input.yy",},"order":3,},
+    {"id":{"name":"talkchar","path":"scripts/talkchar/talkchar.yy",},"order":11,},
     {"id":{"name":"c_null","path":"scripts/c_null/c_null.yy",},"order":0,},
     {"id":{"name":"x_charactersetup","path":"scripts/x_charactersetup/x_charactersetup.yy",},"order":4,},
     {"id":{"name":"bk_intro","path":"sprites/bk_intro/bk_intro.yy",},"order":5,},

@@ -1,6 +1,6 @@
 txtprocessed = false;
 keyboard_check_advanced = keyboard_check;
-msgscript = txt_;
+msgscript = txt_test;
 name = "";
 clr = c_white;
 //draw_set_font(fm_couriernewreallybig);
@@ -9,11 +9,11 @@ talkspeed = .5;
 endevent = c_null;
 talkchars = [];
 
-width = 300;
-height = 100;
+width = 20;
+height = 20;
 spriteposx = 0;
 spriteposy = 0;
-talker = [s_null, s_null, s_null, s_null, s_null];
+talker = [new talkchar()];
 talkindex = [0, 0, 0, 0, 0];
 count = 0;
 
@@ -28,6 +28,5 @@ shake = 0;
 selecting = false;
 skipped = false;
 specialchars = 0;
-advance = true;
 
 bg = s_null;

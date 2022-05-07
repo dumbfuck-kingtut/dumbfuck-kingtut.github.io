@@ -3,8 +3,16 @@ if txtprocessed {
 	draw_sprite(bg, 0, 0, 0);
 	//draw_self();
 	//log(talker, talkindex, spriteposx, spriteposy);
-	for (i=0; i<array_length(talker); i++) {
-		draw_sprite_ext(talker[i], talkindex[i], x+(i-3)*width/7+width/7, y, -ineg(i<2), 1, 0, c_white, 1);
+	for (i=array_length(talker)-1; i>=0; i--) {
+		//log(i);
+		//log(talker[i]);
+		//draw_sprite_ext(talker[i], talkindex[i], x+(i-2)*width/7+width/7, spriteposy, -ineg(i<2), 1, 0, c_white, 1);
+		draw_sprite_ext(talker[i].sprite,
+		talker[i].index,
+		x+(talker[i].position-2)*width/7,
+		y,
+		ineg(talker[i].position >= SPRITEPOS.CENTER),
+		1, 0, make_color_hsv(0, 0, 255-(i>0)*100), talker[i].position <= SPRITEPOS.RIGHT);
 	}
 	//draw_set_color(c_black);
 	draw_sprite(s_textbox, 0, x, y);

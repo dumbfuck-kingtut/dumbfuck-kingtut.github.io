@@ -7,7 +7,7 @@ function txt_() {
 	txt("AGGHGHGHHHHH", "Rigby", RIGBY.THREE, SPRITEPOS.RIGHT),
 	txt("...Wait, i've got an idea", "Rigby", RIGBY.FIVE, SPRITEPOS.RIGHT),
 	txt("What?", "Mordecai", MORDECAI.SEVEN, SPRITEPOS.LEFT),
-	txt("Why don't we make an instagram account?", "RIGBY", RIGBY.SIX, SPRITEPOS.RIGHT),
+	txt("Why don't we make an instagram account?", "Rigby", RIGBY.SIX, SPRITEPOS.RIGHT),
 	txt("What? ...Why?", "Mordecai", MORDECAI.SEVEN, SPRITEPOS.LEFT),
 	txt("Think about it, dude. All our friends have instagram accounts.", "Rigby", RIGBY.SEVEN, SPRITEPOS.RIGHT),
 	txt("Benson,", "Rigby", RIGBY.SEVEN, SPRITEPOS.RIGHT), //show benson

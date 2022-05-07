@@ -1,5 +1,4 @@
 c_input();
-log(select);
 count++;
 
 if !txtprocessed {
@@ -10,11 +9,8 @@ if !txtprocessed {
 	talklength = string_length(msg[talkpos].text)+1;
 	drawing = ""
 	drawchars = 0;
-	name = msg[talkpos].name;
 	msg[talkpos].event();
-	spritepos = msg[talkpos].spritepos
-	talker[spritepos] = global.textguy[?string_lower(name)];
-	talkindex[spritepos] = msg[talkpos].sprite;
+	c_charpush(new talkchar(msg[talkpos].sprite, msg[talkpos].name, msg[talkpos].spritepos));
 	if msg[talkpos].bg != "UNCHANGED" bg = msg[talkpos].bg;
 }
 
@@ -54,9 +50,7 @@ if drawchars <= talklength {
 			drawchars = 0;
 			name = msg[talkpos].name;
 			msg[talkpos].event();
-			spritepos = msg[talkpos].spritepos
-			talker[spritepos] = global.textguy[?string_lower(name)];
-			talkindex[spritepos] = msg[talkpos].sprite;
+			c_charpush(new talkchar(msg[talkpos].sprite, msg[talkpos].name, msg[talkpos].spritepos));
 			if msg[talkpos].bg != "UNCHANGED" bg = msg[talkpos].bg;
         } else {
 			endevent();
