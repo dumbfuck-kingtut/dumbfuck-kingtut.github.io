@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"st_standard","path":"scripts/st_standard/st_standard.yy",},"order":12,},
+    {"id":{"name":"Room12","path":"rooms/Room12/Room12.yy",},"order":1,},
     {"id":{"name":"bk_coffee","path":"sprites/bk_coffee/bk_coffee.yy",},"order":4,},
     {"id":{"name":"Font12","path":"fonts/Font12/Font12.yy",},"order":10,},
     {"id":{"name":"DUDE","path":"objects/DUDE/DUDE.yy",},"order":0,},
@@ -13,6 +15,7 @@
     {"id":{"name":"txt_test","path":"scripts/txt_test/txt_test.yy",},"order":1,},
     {"id":{"name":"c_input","path":"scripts/c_input/c_input.yy",},"order":3,},
     {"id":{"name":"talkchar","path":"scripts/talkchar/talkchar.yy",},"order":11,},
+    {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},"order":9,},
     {"id":{"name":"c_null","path":"scripts/c_null/c_null.yy",},"order":0,},
     {"id":{"name":"x_charactersetup","path":"scripts/x_charactersetup/x_charactersetup.yy",},"order":4,},
     {"id":{"name":"bk_intro","path":"sprites/bk_intro/bk_intro.yy",},"order":5,},
@@ -22,10 +25,13 @@
     {"id":{"name":"instance_create","path":"scripts/instance_create/instance_create.yy",},"order":9,},
     {"id":{"name":"txt","path":"scripts/txt/txt.yy",},"order":2,},
     {"id":{"name":"c_txtspecial","path":"scripts/c_txtspecial/c_txtspecial.yy",},"order":7,},
+    {"id":{"name":"Sprite1011","path":"sprites/Sprite1011/Sprite1011.yy",},"order":10,},
+    {"id":{"name":"o_mordecai","path":"objects/o_mordecai/o_mordecai.yy",},"order":7,},
     {"id":{"name":"o_textbox","path":"objects/o_textbox/o_textbox.yy",},"order":1,},
     {"id":{"name":"txt_","path":"scripts/txt_/txt_.yy",},"order":3,},
     {"id":{"name":"s_mordecai","path":"sprites/s_mordecai/s_mordecai.yy",},"order":1,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":6,},
+    {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":6,},
     {"id":{"name":"bk_coffee2","path":"sprites/bk_coffee2/bk_coffee2.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -43,6 +49,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room12","path":"rooms/Room12/Room12.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
