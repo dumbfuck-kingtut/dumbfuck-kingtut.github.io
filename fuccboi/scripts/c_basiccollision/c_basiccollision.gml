@@ -14,7 +14,6 @@ function c_basiccollision() {
 	if place_meeting(x, y + vspd, o_solid) {
 	    while !place_meeting(x, y + sign(vspd), o_solid) {
 	        y += sign(vspd);
-			//floor(y);
 	    }
 	    vspd = 0;
 	}
