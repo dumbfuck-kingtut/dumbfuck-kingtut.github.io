@@ -17,4 +17,5 @@ function c_basiccollision() {
 	    }
 	    vspd = 0;
 	}
+	
 }
