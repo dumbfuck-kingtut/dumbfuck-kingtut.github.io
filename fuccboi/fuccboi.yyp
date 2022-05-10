@@ -29,6 +29,7 @@
     {"id":{"name":"x_charactersetup","path":"scripts/x_charactersetup/x_charactersetup.yy",},"order":4,},
     {"id":{"name":"s_thetile","path":"sprites/s_thetile/s_thetile.yy",},"order":21,},
     {"id":{"name":"bk_intro","path":"sprites/bk_intro/bk_intro.yy",},"order":5,},
+    {"id":{"name":"bk_grass","path":"sprites/bk_grass/bk_grass.yy",},"order":24,},
     {"id":{"name":"s_textbox","path":"sprites/s_textbox/s_textbox.yy",},"order":8,},
     {"id":{"name":"bk_bedroom","path":"sprites/bk_bedroom/bk_bedroom.yy",},"order":3,},
     {"id":{"name":"s_mordjump","path":"sprites/s_mordjump/s_mordjump.yy",},"order":17,},

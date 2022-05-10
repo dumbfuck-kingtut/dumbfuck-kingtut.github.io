@@ -10,7 +10,7 @@ function st_standard() {
 	} else { //.gravity
 	    leniance = 5;
 	    aerial = false;
-	    y--
+	    y = floor(y);
 	    vspd = 0;
 	}
 	//vspd = lerp(vput*5, vspd, .1);
@@ -45,13 +45,12 @@ function st_standard() {
 //.gravity if floored
 
 //.leniance 
-
 	if aerial {
 		if vspd <= 0 {
 			sprite_index = s_mordjump;
 		} else {
 			sprite_index = s_mordfall;
-			if vspd > .5 {
+			if vspd > .8 {
 				image_index = 1;
 			} else {
 				image_index = 0;
@@ -68,5 +67,4 @@ function st_standard() {
 		}
 	}
 	if hput != 0 image_xscale = hput;
-
 }
