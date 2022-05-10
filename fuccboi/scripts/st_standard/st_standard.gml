@@ -10,7 +10,6 @@ function st_standard() {
 	} else { //.gravity
 	    leniance = 5;
 	    aerial = false;
-	    y--
 	    vspd = 0;
 	}
 	//vspd = lerp(vput*5, vspd, .1);
@@ -27,18 +26,15 @@ function st_standard() {
 	        vspd = vspd/2;
 	    }
 	}
-	//.buggy fix for something
-	if abs(hspd) < 0.2 && !aerial {
-	    hspd = 0;
-	}
-	y = floor(y);
-	c_basiccollision();
-	y = floor(y);
+
+
+	//c_basiccollision();
+	c_newcollision()
 	
 	x += hspd;
 	y += vspd;
 	
-	y = floor(y);
+
 	
 	///st_standard();
 //for real this time

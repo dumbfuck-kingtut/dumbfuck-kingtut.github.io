@@ -12,7 +12,6 @@ function gameObjectSetup(){
 }
 
 function gameRefresh(){
-	console.log("refreshing")
 	//event.keyCode
 	game.save(); //these are actually for the screen rotations and stuff
 	game.fillStyle = "white"; //wipe screen.
