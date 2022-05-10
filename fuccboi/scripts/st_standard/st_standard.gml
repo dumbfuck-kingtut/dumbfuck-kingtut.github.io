@@ -44,7 +44,7 @@ function st_standard() {
 //.leniance 
 
 	if aerial {
-		if !vspd {
+		if vspd <= 0 {
 			sprite_index = s_mordjump;
 		} else {
 			sprite_index = s_mordfall;
@@ -64,6 +64,6 @@ function st_standard() {
 			image_speed = .4;
 		}
 	}
-	image_xscale = -ineg(hput==true);
+	if hput != 0 image_xscale = hput;
 
 }

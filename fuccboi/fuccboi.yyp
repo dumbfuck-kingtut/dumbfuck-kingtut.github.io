@@ -3,7 +3,7 @@
     {"id":{"name":"s_morddoublejumphit","path":"sprites/s_morddoublejumphit/s_morddoublejumphit.yy",},"order":18,},
     {"id":{"name":"s_mordrun","path":"sprites/s_mordrun/s_mordrun.yy",},"order":13,},
     {"id":{"name":"st_standard","path":"scripts/st_standard/st_standard.yy",},"order":12,},
-    {"id":{"name":"Room12","path":"rooms/Room12/Room12.yy",},"order":1,},
+    {"id":{"name":"Room12","path":"rooms/Room12/Room12.yy",},"order":0,},
     {"id":{"name":"bk_coffee","path":"sprites/bk_coffee/bk_coffee.yy",},"order":4,},
     {"id":{"name":"Font12","path":"fonts/Font12/Font12.yy",},"order":10,},
     {"id":{"name":"s_mordrunturn","path":"sprites/s_mordrunturn/s_mordrunturn.yy",},"order":16,},
@@ -44,7 +44,7 @@
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":6,},
     {"id":{"name":"bk_coffee2","path":"sprites/bk_coffee2/bk_coffee2.yy",},"order":6,},
     {"id":{"name":"s_mordturn","path":"sprites/s_mordturn/s_mordturn.yy",},"order":14,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
