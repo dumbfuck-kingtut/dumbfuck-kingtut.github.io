@@ -42,11 +42,11 @@ if drawchars <= talklength {
 				audio_sound_pitch(guy, random(1)+.5);
 				//audio_sound_gain(guy, 2, 0);
 				break;
-			case "gyubh":
+			case "Rigby":
 				guy = audio_play_sound(se_rigby, 0, false);
 				audio_sound_pitch(guy, random(1)+.5);
 				break;
-			case "Rigby":
+			case "SNART":
 				guy = audio_play_sound(se_snart, 0, false);
 				audio_sound_pitch(guy, random(1)+.5);
 				//audio_sound_gain(guy, 2, 0);

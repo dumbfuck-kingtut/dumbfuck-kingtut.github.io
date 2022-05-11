@@ -28,7 +28,7 @@ function txt_() {
 	txt("Whatever we'll just spell it differently,#that makes it a different a word.#Then people can't call us mycologists, or whatever", "Rigby", RIGBY.ONE, SPRITEPOS.RIGHT),
 	txt("", ""), //hm hm hm hm
 	txt("Alright, for our first post we gotta take like,#an awesome picture of us. No one will believe we're#fuccbois unless they SEE it.", "Mordecai", MORDECAI.ONE, SPRITEPOS.LEFT),
-	txt("", ""), //take photo
+	txt(" |w130 |-", "", u, u, u, function() {instance_create(0, 0, o_camera)}), //take photo
 	txt("Lemme see it!", "Rigby", RIGBY.FOUR, SPRITEPOS.RIGHT),
 	txt("(...)", ""),
 	txt("", ""), //show first post no text
