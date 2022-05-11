@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "m_playtime",
-  "duration": 0.0,
+  "soundFile": "m_playtime.ogg",
+  "duration": 210.623611,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
