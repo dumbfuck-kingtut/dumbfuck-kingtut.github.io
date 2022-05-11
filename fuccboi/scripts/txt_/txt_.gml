@@ -2,7 +2,7 @@ function txt_() {
 	//>("________________________________________________________________")
 	msg =  [
 	
-	txt("Uggggggh im so boredddd", "Rigby", RIGBY.TWO, SPRITEPOS.RIGHT, bk_bedroom),
+	txt("Uggggggh im so boredddd", "Rigby", RIGBY.TWO, SPRITEPOS.RIGHT, bk_bedroom, function() {audio_play_sound(m_josuke, 0, true)}),
 	txt("Yeahh... Ever since Benson smashed our dreamcast in a blind rage#when we accidentally ran over his double platinum J's#with the cart there's nothing to do for fun anymore", "Mordecai", MORDECAI.TWO, SPRITEPOS.LEFT),
 	txt("AGGHGHGHHHHH", "Rigby", RIGBY.THREE, SPRITEPOS.RIGHT),
 	txt("...Wait, i've got an idea", "Rigby", RIGBY.FIVE, SPRITEPOS.RIGHT),
@@ -64,6 +64,5 @@ function txt_() {
 	txt("", ""),
 	
 	]
-	
-	endevent = function(){};
+	endevent = function(){audio_stop_all() room_goto_next()};
 }
