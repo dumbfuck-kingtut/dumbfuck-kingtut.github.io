@@ -34,12 +34,10 @@ function txt_() {
 	txt("", ""), //show first post no text
 	txt("Dude. we look so COOL!", "Rigby", RIGBY.FIVE, SPRITEPOS.RIGHT),
 	txt("Really?", "Mordecai", MORDECAI.SEVEN, SPRITEPOS.LEFT),
-	txt("", ""), //mordecai take phone
 	txt("Holy shit. This is perfect.", "Mordecai", MORDECAI.ONE, SPRITEPOS.LEFT),
 	txt("Post the picture post the picture post the pic", "Rigby", RIGBY.FOUR, SPRITEPOS.RIGHT), //skip here
 	txt("Wait no, we gotta put like, some cool words on it", "Mordecai", MORDECAI.EIGHT, SPRITEPOS.LEFT),
 	txt("YES! okay let me write it", "Rigby", RIGBY.FOUR, SPRITEPOS.RIGHT),
-	txt("", ""), //rigby take phone
 	txt("No dude, you're just gonna make it say something dumb", "Mordecai", MORDECAI.SIX, SPRITEPOS.LEFT),
 	txt("No no I won't just trust me", "Rigby", RIGBY.FOUR, SPRITEPOS.RIGHT),
 	txt("*Fine*.#But you better not post it without showing me first", "Mordecai", MORDECAI.SIX, SPRITEPOS.LEFT),
@@ -50,18 +48,16 @@ function txt_() {
 	txt("That's so cool", "Mordecai", MORDECAI.ONE, SPRITEPOS.LEFT),
 	txt("I told you I'm a genius", "Rigby", RIGBY.ONE, SPRITEPOS.RIGHT),
 	txt("I'm posting it", "Mordecai", MORDECAI.ONE, SPRITEPOS.LEFT),
-	txt("", ""), //cg one
-	txt("Yes yes yes", "Rigby", RIGBY.FOUR, SPRITEPOS.RIGHT),
-	txt("Hehehe", "Mordecai", MORDECAI.FIVE, SPRITEPOS.LEFT),
+	ntxt(1, "", u, u, bk_computer, c_resettalkers), //cg one
+	txt("Yes yes yes", "Rigby", RIGBY.NOTHING, SPRITEPOS.HIDDEN),
+	txt("Hehehe", "Mordecai", MORDECAI.NOTHING, SPRITEPOS.HIDDEN),
 	txt("", ""), //show post on instagram
-	txt("", ""), //un-cg
-	txt("Man, how are we so good at social media?", "Rigby", RIGBY.ONE, SPRITEPOS.RIGHT),
+	txt("Man, how are we so good at social media?", "Rigby", RIGBY.ONE, SPRITEPOS.RIGHT, bk_bedroom),
 	txt("We're just naturals, dude. Nothing else to it.", "Mordecai", MORDECAI.FOUR, SPRITEPOS.LEFT),
 	txt("There's no way Margaret won't go out with you now", "Rigby", RIGBY.ONE, SPRITEPOS.RIGHT),
 	txt("You're right. I gotta go tell her to follow me!", "Mordecai", MORDECAI.FIVE, SPRITEPOS.LEFT),
 	txt("I'm gonna go tell her right now. See you later dude", "Mordecai", MORDECAI.THREE, SPRITEPOS.LEFT),
 	txt("Cya", "Rigby", RIGBY.ONE, SPRITEPOS.RIGHT),
-	txt("", ""),
 	
 	]
 	endevent = function(){audio_stop_all() room_goto_next()};

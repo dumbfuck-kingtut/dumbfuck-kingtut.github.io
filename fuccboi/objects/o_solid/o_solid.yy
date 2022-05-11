@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_thetile",
-    "path": "sprites/s_thetile/s_thetile.yy",
+    "name": "Sprite1011",
+    "path": "sprites/Sprite1011/Sprite1011.yy",
   },
   "solid": false,
   "visible": true,

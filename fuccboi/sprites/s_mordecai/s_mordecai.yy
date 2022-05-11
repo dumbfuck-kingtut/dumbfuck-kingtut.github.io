@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 42,
+  "bbox_left": 0,
   "bbox_right": 957,
-  "bbox_top": 220,
+  "bbox_top": 0,
   "bbox_bottom": 777,
   "HTile": false,
   "VTile": false,
@@ -51,6 +51,9 @@
     {"compositeImage":{"FrameId":{"name":"7613e623-3e59-47fb-83f1-87d2e591c1db","path":"sprites/s_mordecai/s_mordecai.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"7613e623-3e59-47fb-83f1-87d2e591c1db","path":"sprites/s_mordecai/s_mordecai.yy",},"LayerId":{"name":"33ec2f0c-ef89-452b-9636-f19cf90f658d","path":"sprites/s_mordecai/s_mordecai.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"s_mordecai","path":"sprites/s_mordecai/s_mordecai.yy",},"resourceVersion":"1.0","name":"7613e623-3e59-47fb-83f1-87d2e591c1db","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"06499dda-ae0b-4329-8cd0-b92859bf10f4","path":"sprites/s_mordecai/s_mordecai.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"06499dda-ae0b-4329-8cd0-b92859bf10f4","path":"sprites/s_mordecai/s_mordecai.yy",},"LayerId":{"name":"33ec2f0c-ef89-452b-9636-f19cf90f658d","path":"sprites/s_mordecai/s_mordecai.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_mordecai","path":"sprites/s_mordecai/s_mordecai.yy",},"resourceVersion":"1.0","name":"06499dda-ae0b-4329-8cd0-b92859bf10f4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_mordecai","path":"sprites/s_mordecai/s_mordecai.yy",},
@@ -60,7 +63,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 9.0,
+    "length": 10.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -74,6 +77,7 @@
             {"id":"7ba8802f-55b4-4499-b612-bb2451143232","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c45acfb-8220-4c20-abec-e19fffc644d9","path":"sprites/s_mordecai/s_mordecai.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"4f0b460a-81d3-4c75-9355-59f786a028a7","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"186718ef-a576-480b-8053-0df19c26cf92","path":"sprites/s_mordecai/s_mordecai.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"321c2679-b806-4265-96a3-20fca0950347","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7613e623-3e59-47fb-83f1-87d2e591c1db","path":"sprites/s_mordecai/s_mordecai.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d32d5155-4806-4f74-aa29-302c99b8fe41","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"06499dda-ae0b-4329-8cd0-b92859bf10f4","path":"sprites/s_mordecai/s_mordecai.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

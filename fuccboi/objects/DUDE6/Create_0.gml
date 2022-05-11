@@ -1,2 +1,2 @@
 //textbox_create(txt_);
-global.gameplay = surface_create(5000, 360);
+global.gameplay = surface_create(6000, 360);

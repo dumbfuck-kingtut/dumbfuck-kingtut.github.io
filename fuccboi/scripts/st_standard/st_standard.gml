@@ -1,7 +1,7 @@
 function st_standard() {
 	hput = right-left;
 	//vput = down-up;
-	hspd = lerp(hspd, hput*5, .1);
+	hspd = lerp(hspd, hput*3.5, .1);
 	
 	if !place_meeting(x, y+1, o_solid) {
 	    vspd += grav;

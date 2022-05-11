@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite1011",
-    "path": "sprites/Sprite1011/Sprite1011.yy",
+    "name": "s_mordfall",
+    "path": "sprites/s_mordfall/s_mordfall.yy",
   },
   "solid": false,
   "visible": true,
