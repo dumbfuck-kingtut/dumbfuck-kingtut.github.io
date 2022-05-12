@@ -3,6 +3,7 @@
     {"id":{"name":"s_morddoublejumphit","path":"sprites/s_morddoublejumphit/s_morddoublejumphit.yy",},"order":18,},
     {"id":{"name":"Room14","path":"rooms/Room14/Room14.yy",},"order":3,},
     {"id":{"name":"s_mordrun","path":"sprites/s_mordrun/s_mordrun.yy",},"order":13,},
+    {"id":{"name":"se_jump","path":"sounds/se_jump/se_jump.yy",},"order":12,},
     {"id":{"name":"st_standard","path":"scripts/st_standard/st_standard.yy",},"order":12,},
     {"id":{"name":"game","path":"rooms/game/game.yy",},"order":0,},
     {"id":{"name":"se_snart","path":"sounds/se_snart/se_snart.yy",},"order":8,},
@@ -59,6 +60,7 @@
     {"id":{"name":"o_textbox","path":"objects/o_textbox/o_textbox.yy",},"order":1,},
     {"id":{"name":"txt_","path":"scripts/txt_/txt_.yy",},"order":3,},
     {"id":{"name":"s_mordecai","path":"sprites/s_mordecai/s_mordecai.yy",},"order":1,},
+    {"id":{"name":"se_talk2","path":"sounds/se_talk2/se_talk2.yy",},"order":11,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":6,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":6,},
     {"id":{"name":"prt_grass","path":"sprites/prt_grass/prt_grass.yy",},"order":23,},
@@ -84,10 +86,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"game","path":"rooms/game/game.yy",},},
+    {"roomId":{"name":"Room14","path":"rooms/Room14/Room14.yy",},},
     {"roomId":{"name":"intro","path":"rooms/intro/intro.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room14","path":"rooms/Room14/Room14.yy",},},
+    {"roomId":{"name":"game","path":"rooms/game/game.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

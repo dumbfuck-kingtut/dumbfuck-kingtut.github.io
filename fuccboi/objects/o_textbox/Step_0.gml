@@ -38,12 +38,12 @@ if drawchars <= talklength {
 	if ncm(6) {
 		switch name { //DONT DO THIS
 			case "Mordecai":
-				guy = audio_play_sound(se_mord, 0, false);
+				guy = audio_play_sound(se_rigby, 0, false);
 				audio_sound_pitch(guy, random(1)+.5);
 				//audio_sound_gain(guy, 2, 0);
 				break;
 			case "Rigby":
-				guy = audio_play_sound(se_rigby, 0, false);
+				guy = audio_play_sound(se_talk2, 0, false);
 				audio_sound_pitch(guy, random(1)+.5);
 				break;
 			case "SNART":

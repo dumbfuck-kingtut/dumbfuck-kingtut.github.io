@@ -9,13 +9,17 @@ function st_standard() {
 	    aerial = true;
 	} else { //.gravity
 	    leniance = 5;
-	    aerial = false;
+		if aerial {
+			aerial = false;
+			audio_play_sound(se_talk2, 0, false);
+		}
 	    vspd = 0;
 	}
 	//vspd = lerp(vput*5, vspd, .1);
 	
 	if leniance > 0 {
 	    if (jump) {
+			audio_play_sound(se_jump, 0, false);
 	        vspd = jspd;
 	        leniance = 0;
 	    }
@@ -29,7 +33,7 @@ function st_standard() {
 
 
 	//c_basiccollision();
-	c_newcollision()
+	c_newcollision();
 	
 	x += hspd;
 	y += vspd;

@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.56,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "se_rigby.wav",
-  "duration": 0.127823,
+  "soundFile": "se_jump.wav",
+  "duration": 0.351973,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "se_rigby",
+  "name": "se_jump",
   "tags": [],
   "resourceType": "GMSound",
 }
