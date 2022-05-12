@@ -68,6 +68,7 @@
     {"id":{"name":"se_camera","path":"sounds/se_camera/se_camera.yy",},"order":10,},
     {"id":{"name":"bk_coffee2","path":"sprites/bk_coffee2/bk_coffee2.yy",},"order":6,},
     {"id":{"name":"s_mordturn","path":"sprites/s_mordturn/s_mordturn.yy",},"order":14,},
+    {"id":{"name":"bread_collision","path":"scripts/bread_collision/bread_collision.yy",},"order":17,},
     {"id":{"name":"m_payday","path":"sounds/m_payday/m_payday.yy",},"order":3,},
     {"id":{"name":"m_eerie","path":"sounds/m_eerie/m_eerie.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},

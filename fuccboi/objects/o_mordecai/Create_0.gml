@@ -7,3 +7,4 @@ state = st_standard;
 grav = .2;
 slipNSlideFunInTheSun = 3;
 leniance = 0;
+dirPrevious = 0;
