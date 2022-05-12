@@ -3,7 +3,13 @@ function st_standard() {
 	//vput = down-up;
 	hspd = lerp(hspd, hput*3.5, .1);
 	
-	if !place_meeting(x, y+1, o_solid) {
+	var a = {bbox_left: bbox_left,
+		bbox_top:bbox_top+grav,
+		bbox_right: bbox_right,
+		bbox_bottom:bbox_bottom+grav}
+	var ymeeting = bread_collision(a,o_solid,COLTYPE.LESSTHAN)
+	
+	if !ymeeting {
 	    vspd += grav;
 	    leniance--;
 	    aerial = true;
@@ -62,5 +68,11 @@ function st_standard() {
 			image_speed = .4;
 		}
 	}
-	if hput != 0 image_xscale = hput;
+	if(hput != 0){
+		if(image_xscale > hput)
+			x--;
+		if(image_xscale < hput)
+			x++;
+		if hput != 0 image_xscale = hput;
+	}
 }
