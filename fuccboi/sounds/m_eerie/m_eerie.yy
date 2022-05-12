@@ -14,7 +14,7 @@
   "duration": 161.5134,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "path": "folders/part1/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "m_eerie",

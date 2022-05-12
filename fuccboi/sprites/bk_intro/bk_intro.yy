@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "fuccboi",
-    "path": "fuccboi.yyp",
+    "name": "Sprites",
+    "path": "folders/part1/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "bk_intro",

@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "path": "folders/part1/Scripts.yy",
   },
   "resourceVersion": "1.0",
   "name": "txt_test",

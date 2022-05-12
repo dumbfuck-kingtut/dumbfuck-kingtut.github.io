@@ -14,7 +14,7 @@
   "duration": 1.589252,
   "parent": {
     "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "path": "folders/part1/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "se_talk2",

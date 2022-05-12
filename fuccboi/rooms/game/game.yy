@@ -674,7 +674,7 @@
   },
   "parent": {
     "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "path": "folders/part1/Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "game",

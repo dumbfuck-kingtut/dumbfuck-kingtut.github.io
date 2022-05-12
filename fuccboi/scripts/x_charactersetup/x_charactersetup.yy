@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Objects",
-    "path": "folders/Objects.yy",
+    "path": "folders/part1/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "x_charactersetup",
