@@ -60,6 +60,9 @@ function c_txtspecial() {
 				drawchars = talklength;
 			}
 			break;
+		case "q": //try to skip
+			drawchars = talklength;
+			break;
 		case "v": //viggle
 			var myguy = string_copy(msg[talkpos].text, i, 2);
 			var myguy2 = string_replace(myguy, ".", "0");
@@ -152,6 +155,7 @@ WAIT FOR INPUT as |n
 CHANGE FACEPIC as |fXX (talksprite)
 ITALICS as |iX to start and |i to close
 SHAKE as |xXX to start and |x to close
+TUR as |q
 
 not yet done:
 BOLDED as |b to start and close
