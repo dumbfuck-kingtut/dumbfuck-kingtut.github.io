@@ -40,6 +40,7 @@ if txtprocessed {
 	sizepos = 0;
 	pressing = 0;
 	fontsize = font_get_size(draw_get_font())-22;
+	
 	for (i=1; i<=effchars; i++) {
 		
 		while string_char_at(msg[talkpos].text, i) = "|" {
@@ -47,12 +48,29 @@ if txtprocessed {
 	    }
 		effchars = drawchars+specialchars;
 		//log(wiggle);
-	    draw_text_ext_transformed_colour(
-			x+width/20+xpos*(fontsize)-width/2+cos((count+i*2)/(talkspeed*20))*wigglex+random(shake/2)-shake/4+20,
-			y+(fontsize)+lb*(fontsize*2)+sin((count+i*2)/(talkspeed*20))*wiggley+random(shake/2)-shake/4+40,
-			string_hash_to_newline(string_char_at(msg[talkpos].text, i)),
-			0, 999, sizemult, sizemult, 0, clr, clr, clr, clr, 1
-		);
+		var centerOffset = 0;
+		
+		try{
+		if(draw_get_halign() == fa_center){
+		//if(true){
+			var msglen = string_length(msg[talkpos].text);
+			var nextLineBreak = string_pos_ext("#",msg[talkpos].text,i);
+			if(nextLineBreak = 0)
+				nextLineBreak = msglen
+			else
+				nextLineBreak -= i
+			centerOffset = 20 - nextLineBreak;
+			log(centerOffset);
+			
+		}
+		
+		var textWiggleX = cos((count+i*2)/(talkspeed*20))*wigglex;
+		var textWiggleY = sin((count+i*2)/(talkspeed*20))*wiggley;
+		var textXPosition = x+width/20+(xpos+centerOffset)*(fontsize)-width/2+textWiggleX+random(shake/2)-shake/4+20;
+		var textYPosition = y+(fontsize)+lb*(fontsize*2)+textWiggleY+random(shake/2)-shake/4+40
+		var theText = string_hash_to_newline(string_char_at(msg[talkpos].text, i));
+	    draw_text_ext_transformed_colour(textXPosition,textYPosition,theText,0, 999, sizemult, sizemult, 0, clr, clr, clr, clr, 1);
+		
 		//font_get_italic()
 		
 	    if string_char_at(msg[talkpos].text, i) = "#" {
@@ -61,8 +79,12 @@ if txtprocessed {
 	    }
 	    xpos += sizemult;
 	    //clrdur--;
-		
+		}
+		catch(e){
+			show_message(e);
+		}
 	}
+	draw_rectangle(x,y,x+width,y+height,true);
 	//draw_set_font(otherfonts);
 	//surface_reset_target();
 }
