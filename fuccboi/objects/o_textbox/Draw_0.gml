@@ -49,19 +49,23 @@ if txtprocessed {
 		effchars = drawchars+specialchars;
 		//log(wiggle);
 		var centerOffset = 0;
-		
 		try{
-		if(draw_get_halign() == fa_center){
-		//if(true){
-			var msglen = string_length(msg[talkpos].text);
-			var nextLineBreak = string_pos_ext("#",msg[talkpos].text,i);
+		//if(draw_get_halign() == fa_center){
+		if(true){
+			var lineList = string_split(msg[talkpos].text,"#")
+			//var paragraphNumber = string_count_ext()
+			var msglen = string_length(lineList[lb])
+			/*var nextLineBreak = string_pos_ext("#",msg[talkpos].text,i);
+			
 			if(nextLineBreak = 0)
 				nextLineBreak = msglen
 			else
 				nextLineBreak -= i
 			centerOffset = 20 - nextLineBreak;
 			log(centerOffset);
-			
+			*/
+			centerOffset = 30 - msglen;
+			log(centerOffset)
 		}
 		
 		var textWiggleX = cos((count+i*2)/(talkspeed*20))*wigglex;
@@ -84,7 +88,6 @@ if txtprocessed {
 			show_message(e);
 		}
 	}
-	draw_rectangle(x,y,x+width,y+height,true);
 	//draw_set_font(otherfonts);
 	//surface_reset_target();
 }

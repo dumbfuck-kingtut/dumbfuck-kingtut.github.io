@@ -75,6 +75,7 @@
     {"id":{"name":"txt_","path":"scripts/txt_/txt_.yy",},"order":3,},
     {"id":{"name":"s_mordecai","path":"sprites/s_mordecai/s_mordecai.yy",},"order":1,},
     {"id":{"name":"se_talk2","path":"sounds/se_talk2/se_talk2.yy",},"order":11,},
+    {"id":{"name":"string_split","path":"scripts/string_split/string_split.yy",},"order":23,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":6,},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"order":6,},
     {"id":{"name":"prt_grass","path":"sprites/prt_grass/prt_grass.yy",},"order":22,},
