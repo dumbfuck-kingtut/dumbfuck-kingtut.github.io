@@ -1,5 +1,5 @@
 function st_standard() {
-	hput = right-left;
+	hput = 1;
 	//vput = down-up;
 	hspd = lerp(hspd, hput*3.5, .1);
 	inv--;

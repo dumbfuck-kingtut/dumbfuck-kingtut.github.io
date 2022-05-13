@@ -1,6 +1,6 @@
 {
-  "bboxMode": 1,
-  "collisionKind": 1,
+  "bboxMode": 0,
+  "collisionKind": 0,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"Sprite1011","path":"sprites/Sprite1011/Sprite1011.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite1011",
+    "name": "Sprite10",
     "tags": [],
     "resourceType": "GMSequence",
   },
