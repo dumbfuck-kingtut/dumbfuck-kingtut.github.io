@@ -122,6 +122,9 @@ function c_txtspecial() {
 				case "r":
 					draw_set_halign(fa_right);
 					break;
+				case "x":
+				
+				break;
 				default:
 					draw_set_halign(fa_left);
 					break;

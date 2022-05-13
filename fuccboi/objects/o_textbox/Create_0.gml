@@ -29,4 +29,5 @@ selecting = false;
 skipped = false;
 specialchars = 0;
 
+
 bg = s_null;
