@@ -2,6 +2,7 @@ function st_standard() {
 	hput = right-left;
 	//vput = down-up;
 	hspd = lerp(hspd, hput*3.5, .1);
+	inv--;
 	
 	var a = {bbox_left: bbox_left,
 		bbox_top:bbox_top+grav,
