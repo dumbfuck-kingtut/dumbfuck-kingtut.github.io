@@ -1,8 +1,11 @@
 if txtprocessed {
 	//surface_set_target(global.surfaces.HUD);
+	draw_set_alpha(fartalpha);
 	draw_sprite(bg, 0, 0, 0);
+	draw_set_alpha(1);
 	//draw_self();
 	//log(talker, talkindex, spriteposx, spriteposy);
+	draw_set_font(Font12);
 	for (i=array_length(talker)-1; i>=0; i--) {
 		//log(i);
 		//log(talker[i]);
@@ -15,14 +18,21 @@ if txtprocessed {
 		1, 0, make_color_hsv(0, 0, 255-(i>0)*100), talker[i].position <= SPRITEPOS.RIGHT);
 	}
 	//draw_set_color(c_black);
-	draw_sprite(s_textbox, 0, x, y);
+	if !farts {
+		draw_sprite(s_textbox, 0, x, y);
+		if talker[0].name == "SNART" {
+			var shits = chr(irandom(52)+65)+chr(irandom(52)+65)+chr(irandom(52)+65)+chr(irandom(52)+65)+chr(irandom(52)+65);
+			draw_text(x+width/20-width/2+30, y-55, shits);
+		} else {
+			draw_text(x+width/20-width/2+30, y-55, name);
+		}
+	}
 	//draw_rectangle(x-width/2, y, x+width/2, y+height, false);
 	//draw_set_color(c_white);
 	//draw_rectangle(x-width/2, y, x+width/2, y+height, true);
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_bottom);
-	draw_set_font(Font12);
-	draw_text(x+width/20-width/2+30, y+10, name);
+	
 	draw_set_valign(fa_top);
 	//var otherfonts = draw_get_font();
 	draw_set_font(Font1);
