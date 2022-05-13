@@ -57,6 +57,7 @@ function c_txtspecial() {
 			if !skipped {
 				selecting = true;
 				skipped = true;
+				drawchars = talklength;
 			}
 			break;
 		case "v": //viggle

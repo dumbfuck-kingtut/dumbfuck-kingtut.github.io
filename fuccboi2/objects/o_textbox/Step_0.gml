@@ -10,6 +10,7 @@ if !txtprocessed {
 	drawing = ""
 	drawchars = 0;
 	msg[talkpos].event();
+	skipped = false;
 	c_charpush(new talkchar(msg[talkpos].sprite, msg[talkpos].name, msg[talkpos].spritepos));
 	name = msg[talkpos].name;
 	if msg[talkpos].bg != "UNCHANGED" bg = msg[talkpos].bg;
@@ -33,7 +34,7 @@ if selecting {
 }
 
 
-if drawchars <= talklength {
+if drawchars <= talklength && !skipped {
     skip = select;
     drawchars += talkspeed;
 	if ncm(6) {
@@ -70,6 +71,7 @@ if drawchars <= talklength {
 			drawchars = 0;
 			name = msg[talkpos].name;
 			msg[talkpos].event();
+			skipped = false;
 			c_charpush(new talkchar(msg[talkpos].sprite, msg[talkpos].name, msg[talkpos].spritepos));
 			if msg[talkpos].bg != "UNCHANGED" bg = msg[talkpos].bg;
         } else {
