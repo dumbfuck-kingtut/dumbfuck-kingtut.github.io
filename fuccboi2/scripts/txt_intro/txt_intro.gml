@@ -63,7 +63,8 @@ function txt_intro() {
 	txt("I, too, once thought that to be impressive. But clearly you were not the right choice for my endeavors.", "SNART"),
 	txt("...", "SNART"),
 	txt("I have no further use for you. However...", "SNART"),
-	txt("Snart: care to play a game with me?", "SNART"),
+	txt("If you can clear one final test, I’ll bid you worthy to live.", "SNART"),
+	txt("Care to play a game with me?", "SNART"),
 	
 	]
 	endevent = function(){audio_stop_all() room_goto_next()};

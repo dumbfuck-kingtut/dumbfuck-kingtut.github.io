@@ -1,5 +1,5 @@
 function st_standard() {
-	hput = 1;
+	hput = 1-left*.5;
 	//vput = down-up;
 	hspd = lerp(hspd, hput*3.5, .1);
 	inv--;
@@ -68,16 +68,12 @@ function st_standard() {
 			sprite_index = s_mordstand;
 		} else if sign(hspd) != sign(hput) {
 			sprite_index = s_mordrunturn;
+		} else if left {
+			sprite_index = s_mordwalk;
+			image_speed = .4;
 		} else {
 			sprite_index = s_mordrun;
 			image_speed = .4;
 		}
-	}
-	if(hput != 0){
-		if(image_xscale > hput)
-			x--;
-		if(image_xscale < hput)
-			x++;
-		if hput != 0 image_xscale = hput;
 	}
 }
