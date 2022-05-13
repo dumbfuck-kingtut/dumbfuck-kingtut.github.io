@@ -32,6 +32,7 @@
     {"id":{"name":"s_null","path":"sprites/s_null/s_null.yy",},"order":0,},
     {"id":{"name":"s_mordwalk","path":"sprites/s_mordwalk/s_mordwalk.yy",},"order":11,},
     {"id":{"name":"o_glitch","path":"objects/o_glitch/o_glitch.yy",},"order":12,},
+    {"id":{"name":"SNART","path":"objects/SNART/SNART.yy",},"order":14,},
     {"id":{"name":"ncm","path":"scripts/ncm/ncm.yy",},"order":5,},
     {"id":{"name":"s_mordfall","path":"sprites/s_mordfall/s_mordfall.yy",},"order":19,},
     {"id":{"name":"s_rigby","path":"sprites/s_rigby/s_rigby.yy",},"order":2,},
@@ -107,8 +108,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"game","path":"rooms/game/game.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"intro","path":"rooms/intro/intro.yy",},},
     {"roomId":{"name":"Room14","path":"rooms/Room14/Room14.yy",},},
   ],
