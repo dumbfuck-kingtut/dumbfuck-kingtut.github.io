@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "se_glitch.mp3",
-  "duration": 2.592,
+  "duration": 2.184,
   "parent": {
     "name": "Sounds",
     "path": "folders/part1/Sounds.yy",

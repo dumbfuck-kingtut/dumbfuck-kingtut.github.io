@@ -3,6 +3,7 @@ global.textguy = ds_map_create();
 global.textguy[?""] = s_null;
 global.textguy[?"mordecai"] = s_mordecai;
 global.textguy[?"rigby"] = s_rigby;
+global.textguy[?"guys"] = s_guys;
 
 
 enum MORDECAI {
