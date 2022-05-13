@@ -2,12 +2,12 @@ function txt_intro() {
 	//>("________________________________________________________________")
 	msg =  [
 	
-	txt("Oh?", "SNART", u, u, u, function() {y -= 750; farts = true; audio_play_sound(m_eerie, 0, true)}),
+	txt("Oh?", "SNART", u, u, u, function() {y -= 350; farts = true; audio_play_sound(m_eerie, 0, true)}),
 	txt("So you've finally made it?", "SNART"),
 	txt("It's nice to see that I've got at least one loyal subject.", "SNART"),
 	txt("Maybe those two did not completely fail me...", "SNART", u, u),
 	ntxt(100, u, u, u, bk_snart),
-	txt("...", "SNART", u, u, u, function() {y += 750; farts = false}),
+	txt("...", "SNART", u, u, u, function() {y += 350; farts = false}),
 	txt("Who the fuck is this guy talking to", "Rigby", RIGBY.SEVEN, SPRITEPOS.RIGHT),
 	txt("Foolish badger.", "SNART"),
 	txt("What? Badgers don't have ringed tails I'm clearly#a fucking raccoon", "Rigby", RIGBY.EIGHT, SPRITEPOS.RIGHT),
