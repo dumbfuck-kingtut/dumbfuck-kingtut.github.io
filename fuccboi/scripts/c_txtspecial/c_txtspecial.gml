@@ -114,6 +114,7 @@ function c_txtspecial() {
 		
 		#region bustedones
 		case "j": //actually doesnt work maybe later
+			//actually DOES work maybe NOW
 			var myguy = string_copy(msg[talkpos].text, i, 1);
 			switch myguy {
 				case "c":
