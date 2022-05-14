@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_____nart",
-    "path": "sprites/s_____nart/s_____nart.yy",
+    "name": "s_thetile",
+    "path": "sprites/s_thetile/s_thetile.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
     "path": "folders/part1/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SNART",
+  "name": "o_bulletwo",
   "tags": [],
   "resourceType": "GMObject",
 }

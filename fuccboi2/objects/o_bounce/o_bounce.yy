@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_____nart",
-    "path": "sprites/s_____nart/s_____nart.yy",
+    "name": "Sprite101135",
+    "path": "sprites/Sprite101135/Sprite101135.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,7 +23,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +31,7 @@
     "path": "folders/part1/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SNART",
+  "name": "o_bounce",
   "tags": [],
   "resourceType": "GMObject",
 }

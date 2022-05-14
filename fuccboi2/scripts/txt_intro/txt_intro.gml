@@ -59,7 +59,7 @@ function txt_intro() {
 	txt("Holy shit this guy is so lame! Stop talking!", "Rigby", RIGBY.THREE),
 	txt("I'm lame? You know what's lame? Acquiring a total of only 122 followers on a 5 year old instagram account. Clearly you two aren't as influential as I thought.", "SNART"),
 	txt("What?! no man, We're super popular! People loved our show!", "Mordecai", MORDECAI.SIX),
-	txt("Yeah! We ruled the 2010s ", "Rigby", RIGBY.EIGHT),
+	txt("Yeah! We ruled the 2010s", "Rigby", RIGBY.EIGHT),
 	txt("I, too, once thought that to be impressive. But clearly you were not the right choice for my endeavors.", "SNART"),
 	txt("...", "SNART"),
 	txt("I have no further use for you. However...", "SNART"),
