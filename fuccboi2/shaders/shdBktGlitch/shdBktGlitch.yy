@@ -2,7 +2,7 @@
   "type": 1,
   "parent": {
     "name": "Scripts",
-    "path": "folders/part1/Scripts.yy",
+    "path": "folders/partwo/Scripts.yy",
   },
   "resourceVersion": "1.0",
   "name": "shdBktGlitch",

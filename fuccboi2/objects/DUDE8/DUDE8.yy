@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
-    "path": "folders/part1/Objects.yy",
+    "path": "folders/partwo/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "DUDE8",

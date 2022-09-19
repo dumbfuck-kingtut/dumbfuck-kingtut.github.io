@@ -14,7 +14,7 @@
   "duration": 180.518936,
   "parent": {
     "name": "Sounds",
-    "path": "folders/part1/Sounds.yy",
+    "path": "folders/partwo/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "m_payday",

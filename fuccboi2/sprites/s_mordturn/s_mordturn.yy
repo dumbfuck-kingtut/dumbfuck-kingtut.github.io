@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/part1/Sprites.yy",
+    "path": "folders/partwo/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_mordturn",

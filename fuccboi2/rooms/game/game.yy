@@ -54,7 +54,7 @@
   },
   "parent": {
     "name": "Rooms",
-    "path": "folders/part1/Rooms.yy",
+    "path": "folders/partwo/Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "game",
