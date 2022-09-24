@@ -31,5 +31,6 @@ specialchars = 0;
 //farts = true;
 farts = false;
 fartalpha = 0;
+ending = false;
 
 bg = s_null;

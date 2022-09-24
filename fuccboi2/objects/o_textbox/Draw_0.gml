@@ -20,12 +20,12 @@ if txtprocessed {
 	}
 	//draw_set_color(c_black);
 	if !farts {
-		draw_sprite(s_textbox, 0, x, y);
+		draw_sprite(!ending ? s_textbox : s_textbox38, 0, !ending ? x : x-334, y);
 		if talker[0].name == "SNART" {
 			var shits = chr(irandom(52)+65)+chr(irandom(52)+65)+chr(irandom(52)+65)+chr(irandom(52)+65)+chr(irandom(52)+65);
-			draw_text(x+width/20-width/2+30, y-55, shits);
+			draw_text(x+width/20-width/2+30, y- (!ending ? 55 : -270), shits);
 		} else {
-			draw_text(x+width/20-width/2+30, y-55, name);
+			draw_text(x+width/20-width/2+30, y- (!ending ? 55 : -270), name);
 		}
 	}
 	//draw_rectangle(x-width/2, y, x+width/2, y+height, false);

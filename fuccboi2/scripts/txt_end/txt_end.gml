@@ -1,13 +1,13 @@
 //log(12/0);
 
-function txt_intro() {
+function txt_end() {
 	//>("________________________________________________________________")
 	msg =  [
 	
-	txt("|jcOh?", "SNART", u, u, u, function() {y -= 350; farts = true; audio_play_sound(m_eerie, 0, true)}),
-	txt("|jcSo you've finally made it?", "SNART"),
-	txt("|jcIt's nice to see that I've got at least one loyal subject.", "SNART"),
-	txt("|jcMaybe those two did not completely fail me...", "SNART", u, u),
+	txt("ah my fouckin face", "SNART", u, u, bk_snart39, function() {ending = true}),
+	txt("birds are singing, flowers are blooming...", "SNART"),
+	txt("on days like these, kids like you...", "SNART"),
+	txt("Should be burning in Hell.", "SNART", u, u),
 	ntxt(100, u, u, u, bk_snart),
 	txt("...", "SNART", u, u, u, function() {y += 350; farts = false}),
 	txt("Who the fuck is this guy talking to", "Rigby", RIGBY.SEVEN, SPRITEPOS.RIGHT),
