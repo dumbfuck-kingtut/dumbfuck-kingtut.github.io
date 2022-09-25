@@ -97,6 +97,6 @@ function st_standard() {
 		room_goto(Room15);
 	}
 	//if hspd > 3.5 && right {
-		SNART.x += lerp(hspd, 3.5, hspd > 3.5 ? .33 : .7);
+		SNART.x += lerp(hspd, 3.5, hspd > 3.5 ? .21 : .7);
 	//}
 }

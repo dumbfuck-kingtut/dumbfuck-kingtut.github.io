@@ -1,6 +1,6 @@
 {
   "option_windows_display_name": "FIVE YEAR FUCCBOI",
-  "option_windows_executable_name": "${project_name}.exe",
+  "option_windows_executable_name": "FIVE.exe",
   "option_windows_version": "5.5.5.5",
   "option_windows_company_info": "SNART",
   "option_windows_product_info": "",

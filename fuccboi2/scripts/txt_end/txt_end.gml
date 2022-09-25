@@ -13,7 +13,7 @@ function txt_end() {
 	txt("eW91IHdpbGwgbmV2ZXIgYmUgc2FmZQ==", "SNART"),
 	
 	
-	txt("Holy shit", "Rigby", 10, SPRITEPOS.RIGHT, s_null, function() {ending = false y = 1080-300}),
+	txt("Holy shit", "Rigby", 10, SPRITEPOS.RIGHT, s_null, function() {ending = false y = 1080-300; audio_play_sound(se_dies, 0, false)}),
 	txt("Do you think it's dead?", "Rigby", 9),
 	txt("Uh...I think so.", "Mordecai", MORDECAI.C1, SPRITEPOS.LEFT),
 	txt("Thank GOD. that guy was so fucking annoying", "Rigby", 13),

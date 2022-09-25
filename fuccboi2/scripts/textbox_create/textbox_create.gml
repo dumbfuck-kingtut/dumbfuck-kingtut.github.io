@@ -8,9 +8,9 @@ function textbox_create(textscript=txt_test, style=global.textdefault, advancabl
 }
 
 global.textdefault = {
-	x: 1267/2,
+	x: 1920/2,
 	y: 1080-300,
-	width: 1267,
+	width: 2000,
 	height: 1000,
 }
 global.textdefaultwo = {
