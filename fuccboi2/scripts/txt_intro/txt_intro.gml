@@ -67,5 +67,5 @@ function txt_intro() {
 	txt("Care to play a game with me?", "SNART"),
 	
 	]
-	endevent = function(){audio_stop_all() room_goto(game)};
+	endevent = function(){audio_stop_all() room_goto(Room19)};
 }

@@ -5,6 +5,7 @@ if txtprocessed {
 	draw_set_alpha(1);
 	//draw_self();
 	//log(talker, talkindex, spriteposx, spriteposy);
+	draw_set_color(c_white);
 	draw_set_font(Font12);
 	var guy = 999;
 	for (i=array_length(talker)-1; i>=0; i--) {
