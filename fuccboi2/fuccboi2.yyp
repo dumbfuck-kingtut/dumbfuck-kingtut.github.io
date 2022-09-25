@@ -9,6 +9,7 @@
     {"id":{"name":"o_bullet1","path":"objects/o_bullet1/o_bullet1.yy",},"order":16,},
     {"id":{"name":"st_standard","path":"scripts/st_standard/st_standard.yy",},"order":12,},
     {"id":{"name":"game","path":"rooms/game/game.yy",},"order":1,},
+    {"id":{"name":"o_flash","path":"objects/o_flash/o_flash.yy",},"order":21,},
     {"id":{"name":"se_snart","path":"sounds/se_snart/se_snart.yy",},"order":8,},
     {"id":{"name":"m_josuke","path":"sounds/m_josuke/m_josuke.yy",},"order":1,},
     {"id":{"name":"DUDE8","path":"objects/DUDE8/DUDE8.yy",},"order":11,},
@@ -119,8 +120,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room15","path":"rooms/Room15/Room15.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"game","path":"rooms/game/game.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room14","path":"rooms/Room14/Room14.yy",},},
     {"roomId":{"name":"intro","path":"rooms/intro/intro.yy",},},
   ],

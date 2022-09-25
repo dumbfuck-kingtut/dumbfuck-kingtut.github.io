@@ -1,14 +1,18 @@
 function st_standard() {
-	hput = 1-left*.5;
+	hput = 1-left*.5+right*.5;
 	//vput = down-up;
 	hspd = lerp(hspd, hput*3.5, .1);
 	inv--;
 	
-	var a = {bbox_left: bbox_left,
-		bbox_top:bbox_top+grav,
-		bbox_right: bbox_right,
-		bbox_bottom:bbox_bottom+grav}
-	var ymeeting = bread_collision(a,o_solid,COLTYPE.LESSTHAN)
+	if vspd >= 0 {
+		var a = {bbox_left: bbox_left,
+			bbox_top:bbox_top+grav,
+			bbox_right: bbox_right,
+			bbox_bottom:bbox_bottom+grav}
+		var ymeeting = bread_collision(a,o_solid,COLTYPE.LESSTHAN);
+	} else {
+		var ymeeting = false;
+	}
 	
 	if !ymeeting {
 	    vspd += grav;
@@ -40,11 +44,13 @@ function st_standard() {
 
 
 	//c_basiccollision();
-	c_newcollision();
+	if vspd >= 0 {
+		c_newcollision();
+	}
 	
 	x += hspd;
 	y += vspd;
-	
+	y = min(y, 1000);
 
 	
 	///st_standard();
@@ -75,5 +81,11 @@ function st_standard() {
 			sprite_index = s_mordrun;
 			image_speed = .4;
 		}
+	}
+	if x >= 16000 {
+		with all {
+			x -= 16000;
+		}
+		instance_create(0, 0, o_flash);
 	}
 }
