@@ -1,5 +1,5 @@
 c_input();
-x += 3.3+right;
+//x += 3.5;
 //x = max(x-.9, o_mordecai.x);
 if !dontmove {
 	if whai > o_mordecai.y vspd -= .1;

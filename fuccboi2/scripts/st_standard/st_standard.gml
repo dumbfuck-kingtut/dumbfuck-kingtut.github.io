@@ -96,4 +96,7 @@ function st_standard() {
 		audio_stop_all();
 		room_goto(Room15);
 	}
+	//if hspd > 3.5 && right {
+		SNART.x += lerp(hspd, 3.5, hspd > 3.5 ? .33 : .7);
+	//}
 }

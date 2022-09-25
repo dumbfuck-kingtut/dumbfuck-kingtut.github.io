@@ -13,9 +13,9 @@ global.textdefault = {
 	width: 1267,
 	height: 1000,
 }
-global.textdefault = {
+global.textdefaultwo = {
 	x: 1920/2,
-	y: 0,
+	y: 999999,
 	width: 2000,
 	height: 1000,
 }

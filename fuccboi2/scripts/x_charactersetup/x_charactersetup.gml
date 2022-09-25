@@ -18,6 +18,9 @@ enum MORDECAI {
 	EIGHT,
 	NINE,
 	NOTHING,
+	C1,
+	C2,
+	C3,
 }
 from s_mordecai
 
@@ -32,5 +35,10 @@ enum RIGBY {
 	EIGHT,
 	NINE,
 	NOTHING,
+	C1,
+	C2,
+	C3,
+	C4,
+	C5,
 }
 from s_rigby
