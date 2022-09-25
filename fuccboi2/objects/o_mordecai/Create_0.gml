@@ -8,5 +8,5 @@ grav = .2;
 slipNSlideFunInTheSun = 3;
 leniance = 0;
 dirPrevious = 0;
-hp = 10;
-inv = 60;
+hp = 16;
+inv = 0;

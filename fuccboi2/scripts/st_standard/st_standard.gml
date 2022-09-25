@@ -88,4 +88,12 @@ function st_standard() {
 		}
 		instance_create(0, 0, o_flash);
 	}
+	if inv image_alpha = .4 else image_alpha = 1;
+	
+	if hp <= 0 room_goto(Room16)
+	
+	if collision_point(x, y, SNART, false, true) {
+		audio_stop_all();
+		room_goto(Room15);
+	}
 }

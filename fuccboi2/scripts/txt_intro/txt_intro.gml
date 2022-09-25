@@ -11,7 +11,7 @@ function txt_intro() {
 	ntxt(100, u, u, u, bk_snart),
 	txt("...", "SNART", u, u, u, function() {y += 350; farts = false}),
 	txt("Who the fuck is this guy talking to", "Rigby", RIGBY.SEVEN, SPRITEPOS.RIGHT),
-	txt("Foolish badger.", "SNART"),
+	txt("Foolish badger.", "SNART", u, u, u, function() {audio_play_sound(se_laugh, 0, false)}),
 	txt("What? Badgers don't have ringed tails I'm clearly#a fucking raccoon", "Rigby", RIGBY.EIGHT, SPRITEPOS.RIGHT),
 	txt("...", "SNART"),
 	txt("It seems you are even more disappointing in-person.", "SNART"),
@@ -67,5 +67,5 @@ function txt_intro() {
 	txt("Care to play a game with me?", "SNART"),
 	
 	]
-	endevent = function(){audio_stop_all() room_goto_next()};
+	endevent = function(){audio_stop_all() room_goto(game)};
 }
