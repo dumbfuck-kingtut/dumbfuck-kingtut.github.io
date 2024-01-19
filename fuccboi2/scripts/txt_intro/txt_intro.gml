@@ -26,7 +26,7 @@ function txt_intro() {
 	txt("Perhaps you've forgotten where you acquired that cellphone.#I couldn't blame you, it's been many years.", "SNART"),
 	txt("The phone...?", "Mordecai", MORDECAI.SEVEN, SPRITEPOS.RIGHT),
 	txt("(Wait, that's right... Rigby said he just found the phone somewhere#in the park...)", "Mordecai", MORDECAI.EIGHT, SPRITEPOS.RIGHT),
-	txt("So, you put that left that phone in the park that day for us? ", "Mordecai", MORDECAI.SEVEN, SPRITEPOS.RIGHT),
+	txt("So, you put that phone in the park that day for us? ", "Mordecai", MORDECAI.SEVEN, SPRITEPOS.RIGHT),
 	txt("Precisely.", "SNART"),
 	txt("You have always acted within my planned expectations.", "SNART"),
 	txt("Your free will is merely an illusion.", "SNART"),

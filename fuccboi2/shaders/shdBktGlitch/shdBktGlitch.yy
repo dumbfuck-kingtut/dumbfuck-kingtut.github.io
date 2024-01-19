@@ -1,11 +1,10 @@
 {
-  "type": 1,
+  "resourceType": "GMShader",
+  "resourceVersion": "1.0",
+  "name": "shdBktGlitch",
   "parent": {
     "name": "Scripts",
     "path": "folders/partwo/Scripts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "shdBktGlitch",
-  "tags": [],
-  "resourceType": "GMShader",
+  "type": 1,
 }

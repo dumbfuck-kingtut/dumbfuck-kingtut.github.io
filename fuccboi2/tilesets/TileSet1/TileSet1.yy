@@ -1,25 +1,9 @@
 {
-  "spriteId": {
-    "name": "prt_grass",
-    "path": "sprites/prt_grass/prt_grass.yy",
-  },
-  "tileWidth": 32,
-  "tileHeight": 32,
-  "tilexoff": 0,
-  "tileyoff": 0,
-  "tilehsep": 0,
-  "tilevsep": 0,
-  "spriteNoExport": true,
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
-  "out_tilehborder": 2,
-  "out_tilevborder": 2,
-  "out_columns": 5,
-  "tile_count": 30,
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "TileSet1",
   "autoTileSets": [
-    {"tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","closed_edge":false,"tiles":[
         14,
         4,
         10,
@@ -36,10 +20,30 @@
         22,
         23,
         0,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"autotile_1","tags":[],"resourceType":"GMAutoTileSet",},
+      ],},
   ],
-  "tileAnimationFrames": [],
-  "tileAnimationSpeed": 15.0,
+  "macroPageTiles": {
+    "SerialiseHeight": 0,
+    "SerialiseWidth": 0,
+    "TileSerialiseData": [],
+  },
+  "out_columns": 5,
+  "out_tilehborder": 2,
+  "out_tilevborder": 2,
+  "parent": {
+    "name": "Sprites",
+    "path": "folders/partwo/Sprites.yy",
+  },
+  "spriteId": {
+    "name": "prt_grass",
+    "path": "sprites/prt_grass/prt_grass.yy",
+  },
+  "spriteNoExport": true,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "tile_count": 30,
   "tileAnimation": {
     "FrameData": [
       0,
@@ -75,17 +79,12 @@
     ],
     "SerialiseFrameCount": 1,
   },
-  "macroPageTiles": {
-    "SerialiseWidth": 0,
-    "SerialiseHeight": 0,
-    "TileSerialiseData": [],
-  },
-  "parent": {
-    "name": "Sprites",
-    "path": "folders/partwo/Sprites.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "TileSet1",
-  "tags": [],
-  "resourceType": "GMTileSet",
+  "tileAnimationFrames": [],
+  "tileAnimationSpeed": 15.0,
+  "tileHeight": 32,
+  "tilehsep": 0,
+  "tilevsep": 0,
+  "tileWidth": 32,
+  "tilexoff": 0,
+  "tileyoff": 0,
 }
